@@ -1,24 +1,137 @@
 {
-  "last_updated": "2026-08-09T18:31:07.333442+00:00",
+  "last_updated": "2026-08-10T07:31:03.762610+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 2,
-      "total_workflow_runs": 16,
-      "total_success": 16,
-      "total_failure": 0,
-      "success_rate": 100.0
+      "runs_with_data": 3,
+      "total_workflow_runs": 26,
+      "total_success": 24,
+      "total_failure": 2,
+      "success_rate": 92.3
     },
     "last_30_days": {
-      "days": 8,
-      "runs_with_data": 2,
-      "total_workflow_runs": 16,
-      "total_success": 16,
-      "total_failure": 0,
-      "success_rate": 100.0
+      "days": 9,
+      "runs_with_data": 3,
+      "total_workflow_runs": 26,
+      "total_success": 24,
+      "total_failure": 2,
+      "success_rate": 92.3
     }
   },
   "history": [
+    {
+      "date": "2026-08-10",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/gtnv/rl/actions/runs/31365928713",
+      "orchestrator_run_id": 31365928713,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185517",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185257",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185376",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384186830",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384186799",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185351",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384187323",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384186547",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384187338",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185781",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185835",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384185635",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384186530",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384471560",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/gtnv/rl/actions/runs/31365928713/job/93384725081",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 8,
+        "failure": 2,
+        "skipped": 6,
+        "other": 0,
+        "success_rate": 80.0
+      }
+    },
     {
       "date": "2026-08-09",
       "orchestrator_ran": true,
