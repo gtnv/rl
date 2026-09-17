@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T10:57:49.399006+00:00",
+  "last_updated": "2026-09-17T20:50:23.088879+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-09-17",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/gtnv/rl/actions/runs/35213117570",
       "orchestrator_run_id": 35213117570,
       "workflows": {
